@@ -1,6 +1,6 @@
 {
   "name": "@ohsome/express-zod",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Typesafe express.js validation with Zod",
   "repository": {
     "type": "git",
