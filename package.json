@@ -1,0 +1,35 @@
+{
+  "name": "@ohsome/express-zod",
+  "version": "1.0.0",
+  "description": "Typesafe express.js validation with Zod",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/getohsome/express-zod.git"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "validation",
+    "validate",
+    "zod",
+    "typescript",
+    "typesafe"
+  ],
+  "author": "Angelo Walczak <angelo.walczak@gmail.com> (https://github.com/K1NXZ)",
+  "license": "MIT",
+  "dependencies": {
+    "zod": "^3.20.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.15",
+    "@types/node": "^18.11.18",
+    "tslint": "^6.1.3"
+  }
+}
